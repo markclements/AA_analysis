@@ -1,0 +1,88 @@
+translate(PHY1500, frame = 0, sens = "F", numcode = 1, NAstring = "X", ambiguous = FALSE)
+
+PHYtree<-read.tree(text="(PHY1_Marattia_3190_4_2,((A_Arabidopsis_L21154,((((((((((((((A_Nicotiana_tabacum_X66784,A_Solanum_AJ001914),A_Symphoricarpus_3006_29_2),(A_Corylopsis_1996_16_1,A_Hamamelis_1966_17_1)),A_Trochodendron_AF190108),A_Meliosma_cDNAgDNA),(((A_Aquilegia_vulgaris,A_Ranunuculus_1846_11_2),A_Cocculus_1931_4_4),A_Euptelea_complete_cds)),A_Dicentra_1477_3_1),(((((A_Liriodendron_complete_cds,A_Magnolia_sou_1811_9_1),A_Myristica_1485_7_1),A_Asimina_1810_2_8),((A_Aristolochia_cDNAgDNA,(((A_Piper_nigrum_cDNAgDNA,A_Zippelia_1784_7_1),A_Houttuynia_1834_10_1),A_Asarum_1996_13_1)),A_Cinnamodendron_1792_4_2)),(((((A_Oryza_X14172,(A_Sorghum_bicolor_U56729,A1_Zea_mays_AY234826)),A_Dioscorea_1912_1_1),A_Spathiphyllum_1914_9_1),((A_Acorus_cDNAgDNA,(A_Potamogeton_1912_13_1_2,A_Triglochin_1792_5_4)),A_Gymnostachys_1485_3_6)),(A_Sarcandra_cDNAgDNA,A_Ascarina_phi_1991_2_4)))),(A_Calycanthus_complete_pre,A_Ceratophyllum_cDNAgDNA)),((A_Schisandra_complete_cds,A_Kadsura_1931_8_con),A_Austrobaileya_cDNAgDNA)),(A_Nymphaea_cDNAgDNA,A_Cabomba_1792_3_1)),A_Amborella_AF190062),(((((((N_Bowenia_serrulata,N_Ceratozamia_mexicana),((N_Encephalartos_barteri,N_Lepidozamia_hopei_97_11_2),N_Macrozamia_macdonnellii)),N_Stangeria_eriopus_97_4_1),(N_Microcycas_calocoma,N_Zamia_furfuracea_93_7_2)),N_Dioon_edule_93_3_3),N_Cycas_circinalis),(N_Ginkgo_biloba_cDNAgDNA,(((N_Gnetum_complete_CDS,N_Welwitschia_536_5_1),(N_Ephedra_major_1920_11_2,N_Ephedra_minima_c172_6_1)),(((N_Abies_firma_3157_1_3,N_Keteleeria_3157_3_1),((N_Picea_mariana_1441_2_1,N_Pinus_strobus_652_3_2),N_Pseudotsuga_914_1_3)),((((N2_Acmopyle_3042_8_1,(N2_Falcatifolium_3043_7,(N2_Podocarp_totara_3043_5_1,N2_Retrophyllum_838_10_8))),(N2_Agathis_robusta_3043_1_1,N2_Araucaria_721_2_1)),N2_Cupressus_arizonica_816_3),(((((N1_Callitropsis_816_4_1,N1_Cupressus_arizonica_816_3),N1_Juniperus_653_12_1),N1_Chamaecyparis_816_1_2),N1_Sequoiadendron_840_9_4),N1_Sciadopitys_c173_3_1))))))),((((((O_Bowenia_serrulata_141_4_1,((O_Ceratozamia_mexicana,((O_Microcycas_calocoma,O_Zamia_furfuracea_141_17_3),O_Stangeria_eriopus_141_5_2)),((O_Encephalartos_barteri,O_Lepidozamia_hopei_137_10_3),O_Macrozamia_macdonnellii))),O_Dioon_edule_137_9_1),O_Cycas_multipinnata_141_1_1),O_Ginkgo_biloba_cDNA),(((((O_Picea_abies_U60264,O_Picea_glauca_3157_5_1),O_Pinus_strobus_652_3_4),O_Pseudotsuga_1441_3_1),((((O_Abies_concolor_894_5_5_2,O_Abies_firma_3157_1_1),O_Keteleeria_3157_3_2),O_Pseudolarix_3157_6_1),O_Cedrus_libani_3157_2_1)),(O_Sequoiadendron_cDNAgDNA,O_Metasequoia_721_5_6))),((((((((C_Arabidopsis_X17343,C_Solanum_U32444),C_Vitis_1966_5b_1),C_Meliosma_cDNAgDNA),(C_Euptelea_cDNAgDNA,C_Euptelea_3153_5_3)),(((C_Calycanthus,(C_Liriodendron_cDNAgDNA,C_Myristica_1966_10_1)),(C_Nymphaea_cDNAgDNA,C_Schisandra_cDNAgDNA)),C_Sarcandra_cDNAgDNA)),(((C_Oryza_AB018442,(C_Sorghum_U56731,C1_Zea_AY234829)),((C_Sagittaria_consensus,C_Spathiphyllum_AF276746),C_Symplocarpus_1914_11_3)),(C_Elodea_1912_4_1,C_Pleea_AF276736))),C_Amborella_AF190063),((C_Aristolochia_chimeri,C_Piper_cDNAgDNA),C_Acorus_ame_cDNAgDNA))))),(((((((P_Bowenia_serrulata_d1004,((P_Ceratozamia_mexicana,P_Stangeria_eriopus),(P_Microcycas_calocoma,P_Zamia_furfuracea))),P_Dioon_edule_d1092),((P_Encephalartos_horridus,P_Lepidozamia_hopei),P_Macrozamia_macdonnellii)),P_Cycas_circinalis_d1099),P_Ginkgo1_Christensen),((P_Welwitschia_81_3_2,(P_E._distachya_63_6_3_P,P_E._chilensis_63_1_2_P)),((((P1_Abies_homolepis_2090,(((P1_Cedrus_libani_2087_3,((P1_Larix_decidua_2088_7_4,P1_Pseudotsuga_2088_2_3),(P1_Picea_breweriana_3028_12,P1_Pinus_strobus_2092_10_4))),P1_Pseudolarix_2088_16_3),(P1_Tsuga_sieboldii_3045_11_4,P2_Tsuga_sieboldii_3045_11_1))),P1_Keteleeria_3028_8_2),(P2_Abies_concolor_3026_5_4,(P2_Picea_breweriana_3028_12,P2_Pinus_strobus_652_3_8))),(((((((((P_Afrocarpus_falcata_3046_2,P_Retrophyllum_3048_1),(P_D._araucaroides_3046_5_2,P_Podocarpus_sp_3048_10_3)),(P_D._imbricatus_3046_4_1,P_F._papuanum_3189_2_1)),P_Saxegothaea_3046_8_2),((P_Manoao_3048_7_2,P_Parasitaxus_1831_1832),(P_Prumnopitys_ladei_3048_11,P_Sundacarpus_3192_4_3))),P_Lepidothamnus_3189_3_1),P_Phyllocladus_hypophyllus),P_Agathis_robusta_3048_2_6),P_Sciadopitys_c234_7_1_pre)))),((((((E_Arabidopsis_X76610,(E_Ipomoea_nil_U39787,E_Solanum_AF178571)),(E_Cercidiphyllum_728_3_2,E_Heuchera_574_17_1)),(E_Nelumbo_1069_9_2,E_Tetracentron_1081_8_5_1)),((E_Annona_glabra_E_1932_8_2,E_Asimina_531_3s_1),E_Ascarina_1894_1_4)),(E_Illicium_987h_3_1,E_Schisandra_1920_12_1)),(B_Amborella_433_3_1,(B_Schisandra_1010_4_1,((B_Ascarina_ph_1941_2_1,B_Hedyosmum_1056_7_2),((B_Cinnamodendron_1956_9,B_Drimys_1081_4_3_1),(((((((((B_Aquilegia_cds,B_Ranunculus_B_95024b),B_Hydrastis_2023_15_2),(B_Cocculus_1941_4_2,B_Podophyllum_92003b)),(B_Akebia_2023_4_1,B_Lardizabala_1993_6_11)),B_Euptelea_1010_3_1),((((((B_Arabidopsis_X17342,(B_Dianthus_1014_6_1,B_Telephium_2054_9_2)),(B_Nicotiana_tabacum_L10114,B1_Solanum_AJ002281)),B_Cissus_1941_6_1),B_Corylopsis_1231_2_3),B_Nelumbo_1014_10_1),(B_Platanus_0021a,B_Sabia_1231_8_3))),(B_Dicentra_02080c,B_Hypecoum_2033_11_1)),(B_Aristolochia_1056_4_1,(B_Asarum_1056_5_1,B_Saruma_1056_11_2))),((((B_Liriodendron_cDNAgDNA,B_Liriodendron_1941_10_5),B_Asimina_1088_9_3),(B_Calycanthus_1088_10_1,B_Hedycarya_1993_1_12)),(((((B_Gymnostachys_2010_10,B_Symplocarpus_1914_12_3),B_Sagittaria_1056_9_1),B_Tofieldia_1956_12_1),B_Triglochin_2030_10_2),((B_Oryza_sativa_X57563,(B_Sorghum_AF182394,B1_Zea_mays_AY234827)),(B_Houttuynia_621_6_3,B_Brasenia_1088_3_1)))))))))))));")
+
+
+
+#Q matrix, i.e. off diagnal elements sum too 1 with the frequencies included in the matrix.
+scaledQ <- function(Q=c(1,1,1,1,1,1), bf=c(0.25,.25,.25,.25)){
+	
+	l=length(bf)
+    res = matrix(0, l, l)
+	res[lower.tri(res)] = Q
+	res = res+t(res)
+	res = res * rep(bf,each=l)
+	diag(res) = -rowSums(res)
+	res2 = res * rep(bf,l)
+	diag(res2)=0 
+	res = res/sum(res2)
+	big.pie<-matrix(bf,l,l)
+	res=big.pie*res
+}
+
+#R matrix, i.e. scaled Q matrix minus the stationery frequencies
+scaledR <- function(Q=c(1,1,1,1,1,1), bf=c(0.25,.25,.25,.25)){
+	
+	l=length(bf)
+    res = matrix(0, l, l)
+	res[lower.tri(res)] = Q
+	res = res+t(res)
+	res = res * rep(bf,each=l)
+	diag(res) = -rowSums(res)
+	res2 = res * rep(bf,l)
+	diag(res2)=0 
+	res = res/sum(res2)
+	big.pie<-matrix(bf,l,l,byrow=TRUE)
+	res=res/big.pie
+}
+
+#extract lower triangle from matrix
+Q1 <- as.numeric(Q[lower.tri(Q,FALSE)])
+
+#This model is usually scaled so that the mean rate of change at
+#equilibrium, Sum_i Sum_j!=i pi_i*q_ij, equals 1.  You should check this
+#scaling before using the matrix above.  The PAML package will perform
+#this scaling.
+#
+
+
+
+#bubble plot 
+
+par(mar=c(3, 6, 3, 2), col="grey85")
+mag = 0.2
+original.vec <- as.matrix(original)
+dim(original.vec) <- NULL
+
+symbols(rep(1:20, ncol(original)), rep(20:1, each=nrow(original)), circles = original.vec, inches=mag) ylim=c(0.5,19.5),fg="grey85", bg="grey20", ylab="", xlab="", xlim =range(0.5:nrow(original)), xaxt="s", yaxt="l", main="", panel.first = grid())
+
+
+axis(1, 1:nrow(res), labels=rownames(res), las=1, col="grey85")
+axis(2, 1:ncol(res), labels=rev(colnames(res)), las=1, col="grey85")
+dev.off()
+
+y<-rep(20:1,20)
+x<-rep(1:20,each=20)
+symbols(x,y,circles=res.vec,inches=mag,ylab="", fg="grey85", bg="grey20", xlab="",xaxt="n", yaxt="n", main="", panel.first = grid())
+
+	l=length(bf)
+  res = matrix(0, l, l)
+	#rownames(res)<-AA.names
+	#colnames(res)<-AA.names
+	res[lower.tri(res)] = LG
+	res = res+t(res)
+
+#converts 0s to NA so they are not plotted
+res[res==0]<-NA
+
+res.vec <- as.matrix(res)
+dim(res.vec) <- NULL
+par(mar=c(1, 1, 1, 1))
+symbols(x,y,circles=(sqrt(res.vec)/pi),inches=0.2, ylab="", xlab="", xlim=c(0,20),ylim=c(0,20), main="",lab=c(20,20,20),panel.first=grid(),fg="black",bg="grey")
+symbols(x,y,circles=(sqrt(res.vec/pi)),inches=0.2,add=TRUE, fg="black",bg="black")
+
+
+To reverse an axis, use xlim or ylim of the form c(hi, lo)
+
+
+	
